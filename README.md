@@ -1,6 +1,6 @@
 # junction event recognition (qmul junction) - deep learning version
 
-this is a python re-do of the method in the MSc thesis _"Motion Pattern Mining and Video Event Recognition in Junctions"_ (chapter 4), but with deep learning instead of HDP / HMM-LDA / SVM.
+this is a python re-do of the method in the MSc thesis _"Motion Pattern Mining and Video Event Recognition in Junctions"_, but with deep learning instead of HDP / HMM-LDA / SVM.
 input is the qmul junction video, output is a traffic state for every 75-frame clip.
 
 persian notes are at the bottom (توضیحات فارسی پایین فایل هست)
@@ -161,7 +161,7 @@ known problems:
 
 ### این پروژه چیست
 
-این کد روش فصل ۴ پایان‌نامه را با پایتون و روش‌های deep learning پیاده می‌کند. ویدیوی تقاطع QMUL به کلیپ‌های ۷۵ فریمی تقسیم می‌شود و برای هر کلیپ وضعیت ترافیکی مشخص می‌شود. ۵۰۰ کلیپ اول برای آموزش و ۷۰۰ کلیپ بعدی برای تست است، همان‌طور که در پایان‌نامه بود.
+این کد روش پایان‌نامه را با پایتون و روش‌های deep learning پیاده می‌کند. ویدیوی تقاطع QMUL به کلیپ‌های ۷۵ فریمی تقسیم می‌شود و برای هر کلیپ وضعیت ترافیکی مشخص می‌شود. ۵۰۰ کلیپ اول برای آموزش و ۷۰۰ کلیپ بعدی برای تست است، همان‌طور که در پایان‌نامه بود.
 
 ### مراحل
 
