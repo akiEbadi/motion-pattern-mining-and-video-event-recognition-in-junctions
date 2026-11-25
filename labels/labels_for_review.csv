@@ -1,0 +1,1201 @@
+clip_id,label,doubt_reason,low_traffic,moving_fraction,directions,source
+582,turning,you wrote turning + vertical: which is more?,False,0.109,SE 65% W 33%,you
+621,turning,you wrote turning + vertical: which is more?,False,0.128,SE 49% W 22% N 13%,you
+693,turning,you wrote turning + vertical: which is more?,False,0.093,SE 47% W 26% N 15%,you
+730,turning,you wrote turning + vertical: which is more?,False,0.123,SE 47% W 33% N 19%,you
+908,turning,you wrote turning + vertical: which is more?,False,0.131,SE 63% W 30%,you
+21,vertical,"about half vertical, half turning",False,0.111,N 62% E 16%,rule (majority)
+115,turning,"about half vertical, half turning",False,0.148,W 42% E 23% NE 20%,rule (majority)
+146,turning,"about half vertical, half turning",False,0.163,W 37% E 22% NE 18%,rule (majority)
+402,turning,"about half vertical, half turning",True,0.019,E 56% NW 22% N 21%,rule (majority)
+413,turning,"about half vertical, half turning",False,0.147,E 62% N 33%,rule (majority)
+470,turning,"about half vertical, half turning",False,0.165,W 48% E 21% NE 14%,rule (majority)
+540,turning,"about half vertical, half turning",False,0.098,W 32% E 29% NE 21%,rule (majority)
+618,vertical,"about half vertical, half turning",False,0.105,N 59% NW 30% SE 11%,rule (majority)
+875,turning,"about half vertical, half turning",False,0.097,E 33% N 32% NE 15%,rule (majority)
+911,turning,"about half vertical, half turning",False,0.126,W 33% N 28% E 25%,rule (majority)
+959,turning,"about half vertical, half turning",False,0.132,W 45% E 28% NE 18%,rule (majority)
+0,right,,False,0.118,E 97%,rule
+1,right,,True,0.023,E 86% W 12%,rule
+2,empty,,False,0.006,E 46% W 46%,rule
+3,empty,,False,0.006,W 51% E 32% NW 15%,rule
+4,empty,,False,0.004,W 65% E 27%,rule
+5,vertical,,True,0.031,SE 39% N 28% W 23%,visual check
+6,vertical,,False,0.259,N 56% SE 31%,rule (majority)
+7,vertical,,False,0.236,N 59% SE 35%,rule (majority)
+8,vertical,,False,0.219,SE 50% N 43%,rule (majority)
+9,turning,,False,0.2,SE 41% N 33% W 14%,visual check
+10,vertical,,False,0.197,N 56% SE 33%,rule (majority)
+11,vertical,,False,0.169,N 61% SE 37%,rule (majority)
+12,vertical,,False,0.123,N 54% SE 44%,visual check
+13,vertical,,False,0.129,N 60% SE 34%,rule (majority)
+14,vertical,,False,0.164,N 50% SE 25% E 16%,visual check
+15,vertical,,False,0.177,N 54% SE 35%,rule (majority)
+16,mixed,,False,0.111,N 58% E 19% NW 13%,mixed band (vertical+turning together)
+17,vertical,,True,0.035,SE 46% N 27% NW 21%,visual check
+18,vertical,,False,0.094,SE 53% N 38%,rule (majority)
+19,turning,,False,0.18,E 29% N 26% NE 24%,visual check
+20,mixed,,False,0.151,N 44% E 28% W 14%,mixed band (vertical+turning together)
+22,turning,,False,0.097,W 57% E 29%,you
+23,left,,True,0.03,W 85%,rule
+24,left,,False,0.166,W 93%,rule
+25,left,,False,0.132,W 79% NW 13%,rule
+26,left,,False,0.201,W 94%,rule
+27,left,,False,0.148,W 85% NW 13%,rule
+28,left,,False,0.048,W 84%,rule
+29,empty,,False,0.003,E 61% W 30%,rule
+30,right,,True,0.037,E 94%,rule
+31,right,,False,0.211,E 89%,rule
+32,right,,False,0.148,E 82% SE 14%,rule
+33,right,,False,0.101,E 97%,rule
+34,right,,False,0.052,E 71% W 20%,you
+35,right,,False,0.058,E 80%,rule
+36,right,,True,0.036,SE 58% E 37%,visual check
+37,empty,,False,0.004,E 50% W 25% SE 14%,rule
+38,vertical,,True,0.024,SE 93%,rule (majority)
+39,vertical,,False,0.088,SE 59% N 19% E 11%,visual check
+40,vertical,,False,0.193,N 52% SE 35%,rule (majority)
+41,vertical,,False,0.237,N 46% SE 42%,rule (majority)
+42,vertical,,False,0.286,SE 49% N 45%,rule (majority)
+43,vertical,,False,0.185,N 53% SE 33% E 10%,rule (majority)
+44,vertical,,False,0.21,SE 55% N 27% E 10%,rule (majority)
+45,vertical,,False,0.225,SE 51% N 36%,rule (majority)
+46,vertical,,False,0.185,N 46% SE 44%,rule (majority)
+47,vertical,,False,0.156,SE 40% N 34% E 22%,visual check
+48,mixed,,False,0.12,W 43% SE 43%,mixed band (vertical+turning together)
+49,turning,,False,0.102,E 30% W 23% N 19%,visual check
+50,mixed,,False,0.12,N 34% W 26% E 21%,mixed band (vertical+turning together)
+51,turning,,False,0.134,E 44% W 22% NE 19%,visual check
+52,turning,,False,0.068,E 50% NE 33% N 14%,visual check
+53,right,,True,0.024,E 83% NE 11%,rule
+54,empty,,False,0.003,W 46% E 33% SE 17%,rule
+55,empty,,False,0.004,E 44% W 25% NW 19%,rule
+56,empty,,False,0.006,W 60% E 31%,rule
+57,left,,False,0.089,W 85%,rule
+58,left,,False,0.21,W 95%,rule
+59,left,,False,0.291,W 98%,rule
+60,left,,False,0.076,W 71% NW 21%,rule
+61,empty,,False,0.003,W 63% E 32%,rule
+62,right,,True,0.04,E 95%,rule
+63,right,,False,0.207,E 98%,rule
+64,right,,False,0.174,E 83% SE 15%,rule
+65,right,,False,0.186,E 88%,rule
+66,right,,False,0.106,E 69% SE 29%,rule
+67,right,,True,0.014,E 88%,rule
+68,right,,True,0.031,E 92%,rule
+69,right,,True,0.021,E 92%,rule
+70,empty,,False,0.002,E 93%,rule
+71,vertical,,False,0.085,N 70% SE 25%,rule (majority)
+72,vertical,,False,0.248,N 52% SE 42%,rule (majority)
+73,vertical,,False,0.268,N 49% SE 35% E 11%,rule (majority)
+74,vertical,,False,0.216,N 49% SE 45%,rule (majority)
+75,vertical,,False,0.154,SE 45% N 34% E 16%,rule (majority)
+76,vertical,,False,0.205,N 46% SE 44%,rule (majority)
+77,vertical,,False,0.174,N 53% SE 44%,rule (majority)
+78,vertical,,False,0.16,SE 50% N 42%,rule (majority)
+79,vertical,,False,0.147,SE 38% N 37% W 16%,visual check
+80,vertical,,False,0.091,SE 64% N 25%,rule (majority)
+81,vertical,,False,0.125,SE 50% N 47%,rule (majority)
+82,vertical,,False,0.085,SE 83% N 13%,rule (majority)
+83,turning,,False,0.094,W 45% SE 26% E 16%,you
+84,left,,False,0.136,W 59% E 19% N 10%,rule
+85,left,,False,0.117,W 72% E 17%,rule
+86,left,,False,0.153,W 90%,rule
+87,left,,False,0.179,W 84% NW 11%,rule
+88,left,,False,0.108,W 68% NW 23%,rule
+89,left,,False,0.083,W 60% NW 22% E 10%,rule
+90,left,,False,0.049,W 57% NW 39%,rule
+91,right,,True,0.041,E 72% W 20%,visual check
+92,right,,False,0.127,E 92%,rule
+93,right,,False,0.209,E 88%,rule
+94,right,,False,0.136,E 83% SE 15%,rule
+95,right,,False,0.054,E 60% SE 33%,rule
+96,right,,True,0.022,E 81% NE 15%,rule
+97,right,,False,0.083,E 86% SE 11%,rule
+98,vertical,,True,0.027,SE 71%,rule (majority)
+99,vertical,,False,0.141,N 61% SE 32%,rule (majority)
+100,vertical,,False,0.264,N 63% SE 29%,rule (majority)
+101,vertical,,False,0.225,N 58% SE 31%,rule (majority)
+102,vertical,,False,0.199,SE 49% N 45%,rule (majority)
+103,vertical,,False,0.203,N 55% SE 39%,rule (majority)
+104,vertical,,False,0.196,N 51% SE 46%,rule (majority)
+105,vertical,,False,0.206,N 54% SE 43%,rule (majority)
+106,vertical,,False,0.156,N 55% SE 42%,rule (majority)
+107,vertical,,False,0.148,N 49% SE 47%,rule (majority)
+108,vertical,,False,0.121,N 49% SE 49%,rule (majority)
+109,vertical,,False,0.116,N 49% SE 48%,rule (majority)
+110,vertical,,False,0.102,SE 57% N 42%,rule (majority)
+111,vertical,,False,0.143,N 51% SE 46%,rule (majority)
+112,vertical,,False,0.161,N 52% SE 39%,rule (majority)
+113,vertical,,False,0.152,SE 51% N 47%,rule (majority)
+114,vertical,,False,0.091,N 45% SE 31%,visual check
+116,turning,,False,0.092,W 63% E 29%,you
+117,left,,False,0.076,W 90%,rule
+118,left,,False,0.189,W 88%,rule
+119,left,,False,0.248,W 88%,rule
+120,left,,False,0.101,W 71% NW 14% E 13%,rule
+121,left,,False,0.063,W 61% NW 29%,rule
+122,right,,False,0.048,E 96%,rule
+123,right,,False,0.179,E 97%,rule
+124,right,,False,0.189,E 85% SE 13%,rule
+125,right,,False,0.161,E 85% SE 12%,rule
+126,right,,False,0.072,E 99%,rule
+127,empty,,False,0.002,E 87%,rule
+128,empty,,False,0.002,E 42% W 42%,rule
+129,empty,,False,0.003,E 55% W 20% NW 15%,rule
+130,empty,,False,0.007,E 51% SE 33% W 14%,rule
+131,vertical,,True,0.041,N 81%,rule (majority)
+132,vertical,,False,0.147,N 52% SE 35%,rule (majority)
+133,vertical,,False,0.224,SE 51% N 42%,rule (majority)
+134,vertical,,False,0.242,N 55% SE 42%,rule (majority)
+135,vertical,,False,0.193,N 45% SE 39% NW 14%,rule (majority)
+136,vertical,,False,0.198,N 43% SE 42%,rule (majority)
+137,vertical,,False,0.191,N 62% SE 36%,rule (majority)
+138,vertical,,False,0.147,N 68% SE 29%,rule (majority)
+139,vertical,,False,0.14,N 59% SE 40%,rule (majority)
+140,vertical,,False,0.131,N 57% SE 35%,rule (majority)
+141,vertical,,False,0.09,SE 71% N 24%,rule (majority)
+142,mixed,,False,0.098,N 48% E 18% NE 17%,mixed band (vertical+turning together)
+143,vertical,,False,0.122,N 72%,rule (majority)
+144,vertical,,False,0.124,N 48% E 22% SE 14%,visual check
+145,turning,,False,0.046,SE 50% NE 16% N 13%,visual check
+147,turning,,False,0.121,W 60% E 30%,you
+148,empty,,False,0.004,W 28% E 24% NW 24%,rule
+149,left,,False,0.093,W 97%,rule
+150,left,,False,0.205,W 92%,rule
+151,left,,False,0.175,W 84%,rule
+152,left,,False,0.165,W 84% NW 11%,rule
+153,left,,False,0.048,W 93%,rule
+154,empty,,False,0.002,E 36% W 36% NW 21%,rule
+155,empty,,False,0.007,E 76% NE 12%,rule
+156,right,,True,0.03,E 99%,rule
+157,right,,False,0.086,E 96%,rule
+158,right,,False,0.136,E 75% SE 24%,rule
+159,right,,True,0.029,E 80% W 17%,rule
+160,right,,True,0.01,E 51% NE 30% NW 11%,visual check
+161,right,,False,0.11,E 96%,rule
+162,right,,False,0.062,E 89%,rule
+163,right,,True,0.014,E 58% W 31%,rule
+164,vertical,,True,0.042,SE 49% N 28% E 11%,visual check
+165,vertical,,False,0.191,N 45% SE 27% NW 19%,visual check
+166,vertical,,False,0.214,N 59% SE 38%,rule (majority)
+167,vertical,,False,0.17,N 53% SE 19% E 14%,visual check
+168,vertical,,False,0.186,N 61% E 21% SE 12%,visual check
+169,vertical,,False,0.183,N 70% SE 23%,rule (majority)
+170,vertical,,False,0.174,N 73% NE 13% SE 13%,rule (majority)
+171,mixed,,False,0.131,N 59% E 23% NE 14%,mixed band (vertical+turning together)
+172,vertical,,False,0.143,N 76% E 12%,visual check
+173,vertical,,False,0.102,N 61% E 22% NE 12%,visual check
+174,vertical,,False,0.129,N 68% SE 20%,rule (majority)
+175,vertical,,False,0.099,N 48% SE 40%,rule (majority)
+176,vertical,,False,0.072,N 58% SE 41%,rule (majority)
+177,vertical,,False,0.071,N 47% SE 36% NW 11%,rule (majority)
+178,vertical,,False,0.083,SE 48% N 36% NW 14%,rule (majority)
+179,vertical,,False,0.095,SE 60% N 37%,rule (majority)
+180,vertical,,False,0.115,SE 55% N 40%,rule (majority)
+181,turning,,False,0.095,W 42% E 30% NE 21%,visual check
+182,turning,,False,0.11,E 31% W 28% N 23%,visual check
+183,turning,,False,0.113,W 55% E 29% NE 13%,visual check
+184,left,,False,0.181,W 87%,rule
+185,left,,False,0.195,W 88%,rule
+186,left,,False,0.147,W 78% NW 16%,rule
+187,left,,False,0.128,W 78% NW 21%,rule
+188,left,,True,0.042,W 90%,rule
+189,right,,True,0.02,E 97%,rule
+190,right,,False,0.054,E 97%,rule
+191,right,,False,0.126,E 91%,rule
+192,right,,False,0.145,E 87% SE 13%,rule
+193,right,,False,0.12,E 94%,rule
+194,right,,False,0.118,E 96%,rule
+195,empty,,False,0.011,E 55% W 35%,rule
+196,vertical,,False,0.054,N 47% SE 44%,rule (majority)
+197,vertical,,False,0.177,SE 47% N 44%,rule (majority)
+198,vertical,,False,0.208,N 50% SE 47%,rule (majority)
+199,vertical,,False,0.208,SE 49% N 45%,rule (majority)
+200,vertical,,False,0.15,N 57% SE 39%,rule (majority)
+201,vertical,,False,0.149,N 55% SE 37%,rule (majority)
+202,vertical,,False,0.146,N 67% SE 26%,rule (majority)
+203,vertical,,False,0.147,N 49% SE 34% NW 15%,rule (majority)
+204,vertical,,False,0.167,N 46% SE 46%,visual check
+205,vertical,,False,0.219,N 58% SE 38%,rule (majority)
+206,vertical,,False,0.177,N 63% SE 33%,rule (majority)
+207,vertical,,False,0.15,N 74% SE 24%,rule (majority)
+208,vertical,,False,0.088,N 70% SE 18% NE 12%,rule (majority)
+209,vertical,,False,0.063,SE 63% NW 13% N 13%,visual check
+210,left,,False,0.053,W 96%,rule
+211,turning,,False,0.056,NW 43% N 27% NE 16%,you
+212,turning,,False,0.103,W 47% E 29%,visual check
+213,left,,False,0.12,W 57% SE 17% NE 12%,rule
+214,turning,,False,0.113,E 37% N 30% NE 21%,visual check
+215,turning,,False,0.167,W 66% E 24%,you
+216,left,,False,0.211,W 94%,rule
+217,left,,False,0.124,W 94%,rule
+218,left,,False,0.051,W 77% NW 18%,rule
+219,empty,,False,0.002,NW 41% E 29% W 18%,rule
+220,right,,True,0.008,E 97%,rule
+221,right,,False,0.091,E 98%,rule
+222,right,,False,0.2,E 96%,rule
+223,right,,False,0.175,E 87% SE 11%,rule
+224,right,,False,0.146,E 67% SE 33%,rule
+225,right,,False,0.078,E 73% SE 27%,rule
+226,right,,False,0.068,E 54% SE 45%,rule
+227,right,,False,0.058,E 99%,rule
+228,empty,,False,0.0,E 67% SE 33%,rule
+229,vertical,,False,0.053,SE 72% E 19%,rule (majority)
+230,vertical,,False,0.204,N 54% SE 29% E 13%,rule (majority)
+231,vertical,,False,0.233,N 56% SE 36%,rule (majority)
+232,vertical,,False,0.234,SE 54% N 36%,rule (majority)
+233,vertical,,False,0.243,N 48% SE 47%,rule (majority)
+234,vertical,,False,0.173,SE 58% N 35%,rule (majority)
+235,vertical,,False,0.123,N 53% SE 41%,rule (majority)
+236,vertical,,False,0.129,N 63% SE 33%,rule (majority)
+237,vertical,,False,0.238,N 54% SE 41%,rule (majority)
+238,vertical,,False,0.187,N 47% SE 46%,rule (majority)
+239,vertical,,False,0.158,N 61% SE 36%,rule (majority)
+240,vertical,,False,0.153,N 64% SE 32%,rule (majority)
+241,vertical,,False,0.12,SE 64% N 18% NW 15%,visual check
+242,mixed,,False,0.08,N 51% E 22% NW 10%,mixed band (vertical+turning together)
+243,vertical,,False,0.194,N 62% E 19% NE 13%,visual check
+244,mixed,,False,0.171,N 39% E 33% NE 26%,mixed band (vertical+turning together)
+245,mixed,,False,0.097,N 42% E 33% NE 19%,mixed band (vertical+turning together)
+246,left,,False,0.082,W 70% E 16%,rule
+247,left,,False,0.088,W 87%,rule
+248,left,,True,0.026,W 55% E 42%,you
+249,left,,False,0.181,W 88%,rule
+250,left,,False,0.164,W 94%,rule
+251,left,,False,0.174,W 93%,rule
+252,left,,False,0.144,W 86%,rule
+253,left,,False,0.195,W 86%,rule
+254,left,,False,0.167,W 81% NW 13%,rule
+255,turning,,True,0.027,NW 45% N 21% W 20%,you
+256,right,,False,0.136,E 97%,rule
+257,right,,False,0.177,E 93%,rule
+258,right,,False,0.186,E 94%,rule
+259,right,,False,0.258,E 82% SE 16%,rule
+260,right,,False,0.172,E 97%,rule
+261,right,,False,0.285,E 89% SE 10%,rule
+262,right,,False,0.142,E 94%,rule
+263,right,,True,0.033,E 96%,rule
+264,vertical,,True,0.026,NW 94%,you
+265,mixed,,True,0.044,N 35% NE 22% W 17%,mixed band (vertical+turning together)
+266,vertical,,False,0.163,N 47% SE 36% NW 13%,rule (majority)
+267,vertical,,False,0.24,N 57% SE 33%,rule (majority)
+268,vertical,,False,0.222,N 43% SE 38%,rule (majority)
+269,vertical,,False,0.197,N 63% SE 31%,rule (majority)
+270,vertical,,False,0.232,N 58% SE 33%,rule (majority)
+271,vertical,,False,0.211,N 66% SE 29%,rule (majority)
+272,vertical,,False,0.256,N 53% SE 42%,visual check
+273,vertical,,False,0.157,SE 57% N 38%,rule (majority)
+274,vertical,,False,0.139,SE 50% N 47%,rule (majority)
+275,vertical,,False,0.087,SE 56% N 38%,rule (majority)
+276,vertical,,False,0.076,SE 37% N 31% E 17%,visual check
+277,vertical,,False,0.097,N 59% E 27%,visual check
+278,turning,,False,0.098,W 35% E 26% N 24%,visual check
+279,turning,,False,0.143,W 34% E 24% N 19%,visual check
+280,left,,False,0.146,W 83% E 10%,rule
+281,left,,True,0.034,SE 46% W 29% E 15%,you
+282,right,,True,0.018,E 71% NE 12% W 10%,rule
+283,right,,True,0.021,E 78% NE 19%,rule
+284,left,,False,0.063,W 90%,rule
+285,left,,False,0.096,W 86% NW 13%,rule
+286,left,,False,0.165,W 93%,rule
+287,left,,False,0.179,W 86% NW 12%,rule
+288,left,,False,0.243,W 89%,rule
+289,left,,False,0.146,W 72% NW 25%,rule
+290,left,,True,0.031,W 61% NW 31%,rule
+291,left,,True,0.004,W 71% SW 18%,rule
+292,right,,False,0.061,E 80% W 14%,rule
+293,right,,False,0.181,E 86% SE 13%,rule
+294,right,,False,0.199,E 92%,rule
+295,right,,False,0.228,E 79% SE 18%,rule
+296,right,,False,0.101,E 78% SE 19%,rule
+297,empty,,False,0.012,E 89%,rule
+298,vertical,,True,0.017,N 86%,rule (majority)
+299,vertical,,False,0.112,N 61% SE 33%,rule (majority)
+300,vertical,,False,0.211,N 48% SE 48%,rule (majority)
+301,vertical,,False,0.182,SE 48% N 47%,rule (majority)
+302,vertical,,False,0.176,SE 50% N 40%,rule (majority)
+303,vertical,,False,0.189,N 49% SE 41%,rule (majority)
+304,vertical,,False,0.221,N 56% SE 37%,rule (majority)
+305,vertical,,False,0.194,N 61% SE 28%,rule (majority)
+306,vertical,,False,0.149,SE 52% N 44%,rule (majority)
+307,vertical,,False,0.105,N 60% SE 36%,rule (majority)
+308,vertical,,False,0.129,N 59% SE 26% E 12%,rule (majority)
+309,vertical,,False,0.158,N 47% SE 38% E 11%,rule (majority)
+310,vertical,,False,0.099,N 61% SE 23% E 12%,rule (majority)
+311,mixed,,False,0.088,E 46% N 45%,mixed band (vertical+turning together)
+312,vertical,,False,0.066,N 69% E 23%,visual check
+313,vertical,,False,0.058,N 95%,rule (majority)
+314,vertical,,False,0.053,N 63% SE 33%,rule (majority)
+315,vertical,,False,0.089,N 80% SE 16%,rule (majority)
+316,left,,False,0.069,W 69% N 24%,rule
+317,left,,False,0.067,W 82%,rule
+318,left,,False,0.056,W 89%,rule
+319,empty,,False,0.013,E 85% W 12%,rule
+320,right,,True,0.013,E 76% W 22%,rule
+321,empty,,False,0.005,W 82% NW 11%,rule
+322,left,,False,0.146,W 96%,rule
+323,left,,False,0.142,W 84% NW 15%,rule
+324,left,,False,0.121,W 97%,rule
+325,left,,False,0.173,W 85% NW 12%,rule
+326,left,,False,0.147,W 81% NW 16%,rule
+327,left,,False,0.139,W 88%,rule
+328,left,,False,0.08,W 59% NW 40%,rule
+329,right,,True,0.034,E 71%,rule
+330,right,,False,0.079,E 97%,rule
+331,right,,False,0.192,E 91%,rule
+332,right,,False,0.17,E 97%,rule
+333,right,,False,0.14,E 97%,rule
+334,right,,True,0.044,E 95%,rule
+335,empty,,True,0.007,SE 68% E 16% W 16%,visual check
+336,vertical,,False,0.139,N 54% SE 27% E 17%,rule (majority)
+337,vertical,,False,0.215,N 65% SE 31%,rule (majority)
+338,vertical,,False,0.25,N 60% SE 31%,rule (majority)
+339,vertical,,False,0.189,N 49% SE 42%,rule (majority)
+340,vertical,,False,0.287,N 52% SE 42%,rule (majority)
+341,vertical,,False,0.254,SE 54% N 43%,rule (majority)
+342,vertical,,False,0.222,N 46% SE 43%,rule (majority)
+343,vertical,,False,0.179,N 48% SE 44%,rule (majority)
+344,vertical,,False,0.162,N 77% SE 14%,rule (majority)
+345,vertical,,False,0.191,N 69% SE 20%,rule (majority)
+346,vertical,,False,0.204,N 59% SE 40%,rule (majority)
+347,vertical,,False,0.177,N 47% SE 37% E 15%,rule (majority)
+348,vertical,,False,0.139,SE 59% N 33%,rule (majority)
+349,vertical,,False,0.126,SE 70% N 24%,rule (majority)
+350,vertical,,False,0.091,N 60% SE 36%,rule (majority)
+351,turning,,False,0.114,N 29% E 28% W 28%,visual check
+352,turning,,False,0.13,E 49% W 31% NE 16%,visual check
+353,left,,False,0.06,W 83% E 11%,rule
+354,left,,False,0.263,W 89%,rule
+355,left,,False,0.157,W 85%,rule
+356,left,,False,0.089,W 71% NW 16% E 11%,rule
+357,left,,False,0.223,W 93%,rule
+358,left,,False,0.286,W 98%,rule
+359,left,,False,0.187,W 93%,rule
+360,left,,False,0.164,W 83% NW 13%,rule
+361,left,,False,0.049,W 75% E 21%,you
+362,left,,True,0.02,W 90%,rule
+363,empty,,False,0.011,W 59% E 15% NW 12%,rule
+364,left,,True,0.014,W 52% E 38%,rule
+365,right,,False,0.093,E 81% W 14%,rule
+366,right,,False,0.139,E 94%,rule
+367,right,,False,0.153,E 98%,rule
+368,right,,False,0.186,E 87% SE 11%,rule
+369,right,,False,0.15,E 97%,rule
+370,right,,True,0.029,E 99%,rule
+371,empty,,False,0.002,E 64% W 36%,rule
+372,empty,,False,0.001,W 50% E 40% NW 10%,rule
+373,vertical,,False,0.052,N 51% SE 33% E 13%,rule (majority)
+374,vertical,,False,0.224,N 54% SE 36%,rule (majority)
+375,vertical,,False,0.272,N 54% SE 39%,rule (majority)
+376,vertical,,False,0.204,SE 54% N 37%,rule (majority)
+377,vertical,,False,0.186,SE 46% N 41%,rule (majority)
+378,vertical,,False,0.201,N 52% SE 37%,rule (majority)
+379,vertical,,False,0.165,SE 48% N 47%,rule (majority)
+380,vertical,,False,0.162,N 58% SE 28%,rule (majority)
+381,mixed,,False,0.165,N 48% E 32% NE 18%,mixed band (vertical+turning together)
+382,vertical,,False,0.072,N 65% E 24%,visual check
+383,vertical,,False,0.099,N 61% SE 18% W 13%,visual check
+384,left,,False,0.105,W 55% SE 19% E 17%,rule
+385,turning,,False,0.11,N 44% SE 30% W 23%,visual check
+386,vertical,,False,0.159,N 62% SE 33%,rule (majority)
+387,vertical,,False,0.152,N 65% SE 29%,rule (majority)
+388,vertical,,False,0.158,N 49% SE 45%,visual check
+389,vertical,,False,0.161,N 69% E 11%,visual check
+390,vertical,,False,0.148,N 74% E 20%,visual check
+391,vertical,,False,0.152,N 67% NE 14% E 14%,visual check
+392,mixed,,False,0.075,N 47% E 24% NE 17%,mixed band (vertical+turning together)
+393,vertical,,False,0.058,N 91%,rule (majority)
+394,mixed,,False,0.109,W 35% SE 26% E 14%,mixed band (vertical+turning together)
+395,turning,,True,0.028,W 55% E 38%,you
+396,empty,,False,0.022,E 61% NE 20% W 15%,rule
+397,left,,False,0.099,W 82% E 12%,rule
+398,left,,False,0.172,W 87%,rule
+399,left,,False,0.115,W 89%,rule
+400,left,,False,0.172,W 91%,rule
+401,left,,False,0.164,W 81%,rule
+403,right,,False,0.111,E 98%,rule
+404,right,,False,0.176,E 96%,rule
+405,right,,False,0.141,E 86% SE 13%,rule
+406,right,,False,0.145,E 97%,rule
+407,right,,False,0.068,E 69% SE 30%,rule
+408,right,,True,0.03,E 57% SE 40%,rule
+409,empty,,False,0.01,E 61% NE 22%,rule
+410,empty,,False,0.003,N 40% E 30% W 25%,rule
+411,vertical,,False,0.06,N 91%,rule (majority)
+412,vertical,,False,0.067,N 79% E 16%,visual check
+414,vertical,,False,0.189,N 74% E 17%,visual check
+415,vertical,,False,0.258,N 57% SE 41%,rule (majority)
+416,vertical,,False,0.266,N 51% SE 46%,rule (majority)
+417,vertical,,False,0.25,N 48% SE 45%,rule (majority)
+418,vertical,,False,0.185,N 57% SE 30%,rule (majority)
+419,vertical,,False,0.17,N 71% SE 23%,rule (majority)
+420,vertical,,False,0.142,N 54% SE 37%,rule (majority)
+421,vertical,,False,0.119,SE 51% N 19% E 13%,visual check
+422,turning,,False,0.105,SE 45% N 30% W 21%,visual check
+423,vertical,,False,0.103,SE 52% N 43%,rule (majority)
+424,vertical,,False,0.155,SE 49% N 44%,rule (majority)
+425,vertical,,False,0.126,SE 52% N 32% E 12%,rule (majority)
+426,vertical,,False,0.106,N 45% SE 42% E 12%,rule (majority)
+427,vertical,,False,0.148,N 68% E 14%,visual check
+428,vertical,,False,0.095,N 74% NE 13%,visual check
+429,vertical,,False,0.158,N 65% E 13% NW 13%,visual check
+430,mixed,,False,0.133,N 47% E 27% NE 21%,mixed band (vertical+turning together)
+431,mixed,,False,0.168,N 39% E 32% NE 13%,mixed band (vertical+turning together)
+432,turning,,False,0.183,SE 37% W 25% N 25%,visual check
+433,turning,,False,0.157,W 42% E 29% NE 16%,visual check
+434,left,,False,0.125,W 83% E 14%,rule
+435,left,,False,0.119,W 85% NW 11%,rule
+436,left,,False,0.188,W 89%,rule
+437,left,,False,0.264,W 87%,rule
+438,left,,False,0.09,W 64% NW 15% E 14%,rule
+439,turning,,True,0.025,NW 47% E 26% W 18%,visual check
+440,right,,False,0.071,E 97%,rule
+441,right,,False,0.168,E 98%,rule
+442,right,,False,0.153,E 90%,rule
+443,right,,False,0.269,E 95%,rule
+444,right,,False,0.176,E 97%,rule
+445,right,,False,0.174,E 97%,rule
+446,right,,False,0.121,E 95%,rule
+447,right,,True,0.039,E 48% SE 46%,rule
+448,vertical,,False,0.087,N 37% SE 25% E 24%,visual check
+449,vertical,,False,0.206,N 48% SE 39%,rule (majority)
+450,vertical,,False,0.24,N 50% SE 43%,rule (majority)
+451,vertical,,False,0.216,N 51% SE 45%,rule (majority)
+452,vertical,,False,0.18,N 47% SE 47%,rule (majority)
+453,vertical,,False,0.207,N 46% SE 44%,rule (majority)
+454,vertical,,False,0.156,N 51% SE 31% NW 10%,visual check
+455,vertical,,False,0.095,N 77% E 17%,rule (majority)
+456,mixed,,False,0.089,N 59% E 34%,mixed band (vertical+turning together)
+457,mixed,,False,0.115,N 56% E 25% NE 16%,mixed band (vertical+turning together)
+458,vertical,,False,0.162,N 62% SE 18% E 17%,visual check
+459,vertical,,False,0.12,SE 51% N 48%,visual check
+460,vertical,,False,0.097,N 69% SE 30%,rule (majority)
+461,vertical,,False,0.051,SE 39% N 35% NW 19%,visual check
+462,vertical,,False,0.079,SE 69% N 30%,rule (majority)
+463,vertical,,False,0.058,SE 77% N 11%,rule (majority)
+464,turning,,False,0.12,N 52% E 23% NE 14%,visual check
+465,vertical,,False,0.139,N 66% E 18% NE 11%,visual check
+466,mixed,,False,0.165,N 56% E 19% NE 15%,mixed band (vertical+turning together)
+467,mixed,,False,0.168,N 47% E 27% NE 17%,mixed band (vertical+turning together)
+468,vertical,,False,0.116,N 61% E 11%,visual check
+469,vertical,,False,0.146,SE 52% N 31% W 12%,rule (majority)
+471,left,,False,0.171,W 85%,rule
+472,left,,False,0.141,W 92%,rule
+473,left,,False,0.176,W 89%,rule
+474,left,,False,0.147,W 82% NW 12%,rule
+475,left,,False,0.094,W 70% NW 17%,rule
+476,left,,False,0.067,W 76% NW 22%,rule
+477,right,,True,0.04,E 91%,rule
+478,right,,False,0.155,E 96%,rule
+479,right,,False,0.183,E 80% SE 19%,rule
+480,right,,False,0.167,E 89%,rule
+481,right,,False,0.121,E 95%,rule
+482,right,,True,0.019,E 86%,rule
+483,empty,,False,0.006,W 71% E 29%,rule
+484,empty,,False,0.002,E 75% W 25%,rule
+485,vertical,,True,0.036,SE 49% N 42%,rule (majority)
+486,vertical,,False,0.193,N 56% SE 42%,rule (majority)
+487,vertical,,False,0.213,N 51% SE 42%,rule (majority)
+488,vertical,,False,0.195,SE 56% N 40%,rule (majority)
+489,vertical,,False,0.199,N 49% SE 48%,rule (majority)
+490,vertical,,False,0.242,N 53% SE 43%,rule (majority)
+491,vertical,,False,0.248,SE 42% N 42% NW 12%,rule (majority)
+492,vertical,,False,0.148,SE 62% N 30%,rule (majority)
+493,vertical,,False,0.198,SE 54% N 41%,rule (majority)
+494,vertical,,False,0.167,N 51% SE 45%,rule (majority)
+495,vertical,,False,0.136,SE 54% N 43%,rule (majority)
+496,vertical,,False,0.086,N 58% SE 38%,rule (majority)
+497,vertical,,False,0.125,SE 53% N 37%,rule (majority)
+498,vertical,,False,0.111,N 47% SE 39% E 11%,rule (majority)
+499,vertical,,False,0.129,SE 53% N 39%,rule (majority)
+500,vertical,,False,0.132,SE 48% N 32% W 17%,rule (majority)
+501,vertical,,False,0.093,N 61% SE 35%,rule (majority)
+502,vertical,,False,0.068,N 50% SE 37%,rule (majority)
+503,mixed,,False,0.063,N 54% E 39%,mixed band (vertical+turning together)
+504,vertical,,False,0.058,N 83% E 11%,rule (majority)
+505,mixed,,False,0.081,W 50% N 37%,mixed band (vertical+turning together)
+506,mixed,,False,0.095,W 59% SE 35%,mixed band (vertical+turning together)
+507,left,,True,0.019,W 93%,rule
+508,left,,False,0.105,W 87%,rule
+509,turning,,False,0.122,W 54% E 22% NE 14%,visual check
+510,left,,False,0.17,W 90%,rule
+511,left,,False,0.171,W 78% NW 15%,rule
+512,left,,False,0.233,W 93%,rule
+513,left,,False,0.238,W 92%,rule
+514,left,,False,0.175,W 93%,rule
+515,left,,True,0.041,W 99%,rule
+516,right,,True,0.024,E 81% W 16%,rule
+517,right,,False,0.142,E 97%,rule
+518,right,,False,0.183,E 93%,rule
+519,right,,False,0.14,E 96%,rule
+520,right,,False,0.173,E 86% SE 10%,rule
+521,right,,False,0.15,E 85% SE 10%,rule
+522,right,,True,0.032,E 94%,rule
+523,empty,,False,0.006,E 33% W 31% N 26%,rule
+524,vertical,,True,0.041,N 52% SE 42%,rule (majority)
+525,vertical,,False,0.156,N 48% SE 38% E 11%,rule (majority)
+526,vertical,,False,0.213,N 61% SE 36%,rule (majority)
+527,vertical,,False,0.213,N 48% SE 46%,rule (majority)
+528,vertical,,False,0.218,N 57% SE 41%,rule (majority)
+529,vertical,,False,0.231,SE 51% N 46%,rule (majority)
+530,vertical,,False,0.166,N 46% SE 35% E 12%,rule (majority)
+531,vertical,,False,0.145,N 50% SE 47%,rule (majority)
+532,vertical,,False,0.12,N 52% SE 44%,rule (majority)
+533,mixed,,False,0.135,N 53% E 29% NE 10%,mixed band (vertical+turning together)
+534,vertical,,False,0.12,N 67% E 16% NE 13%,visual check
+535,vertical,,False,0.129,N 73% E 13%,visual check
+536,vertical,,False,0.125,SE 46% N 32% E 11%,visual check
+537,vertical,,False,0.148,N 55% SE 40%,visual check
+538,vertical,,False,0.155,N 67% SE 29%,rule (majority)
+539,mixed,,False,0.131,N 48% E 19% W 18%,mixed band (vertical+turning together)
+541,mixed,,False,0.102,N 47% E 23% NE 16%,mixed band (vertical+turning together)
+542,mixed,,False,0.146,N 47% E 29% NE 22%,mixed band (vertical+turning together)
+543,vertical,,False,0.16,N 69% E 16%,visual check
+544,vertical,,False,0.168,N 55% SE 35%,rule (majority)
+545,vertical,,False,0.184,N 50% SE 43%,visual check
+546,turning,,False,0.179,SE 44% N 30% W 16%,visual check
+547,left,,False,0.104,W 67% E 19%,rule
+548,left,,False,0.08,W 94%,rule
+549,left,,False,0.166,W 92%,rule
+550,left,,False,0.228,W 95%,rule
+551,left,,False,0.305,W 98%,rule
+552,left,,False,0.169,W 96%,rule
+553,turning,,True,0.028,NW 41% W 33% E 23%,visual check
+554,right,,False,0.069,E 91%,rule
+555,right,,False,0.098,E 99%,rule
+556,right,,False,0.173,E 88% SE 11%,rule
+557,right,,False,0.089,E 98%,rule
+558,right,,False,0.185,E 98%,rule
+559,right,,False,0.17,E 98%,rule
+560,right,,False,0.133,E 95%,rule
+561,right,,True,0.021,E 75% SE 12% W 12%,rule
+562,vertical,,False,0.144,N 47% SE 34% E 16%,rule (majority)
+563,vertical,,False,0.186,N 45% SE 30% E 21%,visual check
+564,vertical,,False,0.174,N 56% SE 38%,rule (majority)
+565,vertical,,False,0.199,SE 49% N 49%,rule (majority)
+566,vertical,,False,0.196,N 52% SE 44%,rule (majority)
+567,vertical,,False,0.173,N 46% SE 38%,rule (majority)
+568,vertical,,False,0.185,SE 50% N 49%,rule (majority)
+569,vertical,,False,0.197,N 67% SE 29%,rule (majority)
+570,vertical,,False,0.175,N 68% SE 29%,visual check
+571,vertical,,False,0.153,N 70% SE 26%,rule (majority)
+572,vertical,,False,0.148,N 70% SE 18% E 11%,rule (majority)
+573,vertical,,False,0.137,SE 55% N 35%,rule (majority)
+574,vertical,,False,0.095,N 69% SE 25%,rule (majority)
+575,vertical,,False,0.087,N 55% SE 39%,rule (majority)
+576,vertical,,False,0.133,N 62% E 15% SE 14%,visual check
+577,mixed,,False,0.101,N 57% NE 19% E 18%,mixed band (vertical+turning together)
+578,mixed,,False,0.085,N 54% E 32%,mixed band (vertical+turning together)
+579,vertical,,True,0.036,N 86% W 11%,visual check
+580,vertical,,True,0.044,N 79% SE 20%,rule (majority)
+581,mixed,,False,0.136,SE 49% W 45%,mixed band (vertical+turning together)
+583,vertical,,False,0.11,SE 50% N 29%,rule (majority)
+584,turning,,False,0.069,W 47% E 42%,you
+585,left,,True,0.034,W 86% E 10%,rule
+586,left,,False,0.068,W 80% NW 18%,rule
+587,left,,False,0.226,W 94%,rule
+588,left,,False,0.167,W 82% NW 15%,rule
+589,left,,False,0.175,W 90%,rule
+590,left,,False,0.123,W 82% NW 13%,rule
+591,left,,False,0.075,W 75% NW 23%,rule
+592,turning,,True,0.037,NW 52% W 46%,you
+593,right,,False,0.146,E 100%,rule
+594,right,,False,0.211,E 91%,rule
+595,right,,False,0.206,E 80% SE 19%,rule
+596,right,,False,0.222,E 88% SE 11%,rule
+597,right,,False,0.178,E 92%,rule
+598,right,,False,0.198,E 90%,rule
+599,right,,False,0.065,E 70% SE 30%,rule
+600,vertical,,True,0.034,N 59% E 25% SE 13%,visual check
+601,vertical,,False,0.156,N 49% SE 33% E 16%,rule (majority)
+602,vertical,,False,0.187,N 58% SE 35%,rule (majority)
+603,vertical,,False,0.211,N 42% SE 24% NW 18%,visual check
+604,vertical,,False,0.221,N 60% SE 32%,rule (majority)
+605,vertical,,False,0.227,N 55% SE 41%,rule (majority)
+606,vertical,,False,0.217,N 57% SE 42%,rule (majority)
+607,vertical,,False,0.231,N 55% SE 37%,rule (majority)
+608,vertical,,False,0.19,N 52% SE 34% E 11%,rule (majority)
+609,vertical,,False,0.161,N 48% SE 35% E 12%,rule (majority)
+610,vertical,,False,0.146,N 61% SE 25%,rule (majority)
+611,mixed,,False,0.199,N 54% E 28% NE 15%,mixed band (vertical+turning together)
+612,mixed,,False,0.146,N 59% E 28% NE 11%,mixed band (vertical+turning together)
+613,vertical,,False,0.061,N 80% E 17%,rule (majority)
+614,vertical,,False,0.11,N 98%,rule (majority)
+615,vertical,,False,0.093,N 97%,rule (majority)
+616,turning,,False,0.085,N 46% W 29% SE 16%,visual check
+617,mixed,,False,0.053,W 45% N 33% NW 16%,mixed band (vertical+turning together)
+619,vertical,,False,0.087,SE 70% N 26%,rule (majority)
+620,turning,,False,0.067,E 43% W 25% N 17%,visual check
+622,mixed,,False,0.139,E 41% N 34% NE 15%,mixed band (vertical+turning together)
+623,turning,,False,0.089,E 53% NE 34% N 13%,visual check
+624,right,,True,0.028,E 80% NE 18%,rule
+625,left,,False,0.049,W 89%,rule
+626,left,,False,0.227,W 83%,rule
+627,left,,False,0.177,W 89%,rule
+628,left,,False,0.163,W 87%,rule
+629,left,,False,0.178,W 79% NW 16%,rule
+630,right,,True,0.017,E 79% NW 16%,rule
+631,right,,False,0.141,E 88%,rule
+632,right,,False,0.171,E 95%,rule
+633,right,,False,0.142,E 97%,rule
+634,right,,False,0.182,E 85% SE 14%,rule
+635,right,,False,0.156,E 85% SE 13%,rule
+636,right,,False,0.084,E 96%,rule
+637,right,,True,0.034,SE 52% E 48%,rule
+638,vertical,,False,0.071,N 48% SE 42%,rule (majority)
+639,vertical,,False,0.147,N 47% SE 35% E 13%,rule (majority)
+640,vertical,,False,0.12,SE 55% N 23%,visual check
+641,vertical,,False,0.19,N 63% SE 32%,rule (majority)
+642,vertical,,False,0.192,N 54% SE 27% E 11%,rule (majority)
+643,vertical,,False,0.238,N 54% SE 45%,rule (majority)
+644,vertical,,False,0.249,SE 52% N 37%,rule (majority)
+645,vertical,,False,0.206,N 62% SE 35%,rule (majority)
+646,vertical,,False,0.167,N 61% SE 22%,rule (majority)
+647,vertical,,False,0.17,N 68% SE 28%,rule (majority)
+648,vertical,,False,0.183,N 64% E 18% NE 10%,visual check
+649,mixed,,False,0.121,N 55% E 26% NE 10%,mixed band (vertical+turning together)
+650,vertical,,False,0.129,N 68% SE 23%,rule (majority)
+651,vertical,,False,0.083,N 85%,rule (majority)
+652,vertical,,False,0.053,N 97%,visual check
+653,vertical,,False,0.056,N 95%,rule (majority)
+654,vertical,,False,0.077,N 91%,rule (majority)
+655,vertical,,False,0.12,N 71% SE 21%,rule (majority)
+656,vertical,,False,0.125,N 56% SE 21% W 16%,visual check
+657,turning,,False,0.096,W 37% E 22% N 19%,visual check
+658,turning,,False,0.086,W 36% E 25% N 20%,visual check
+659,mixed,,True,0.034,SE 56% NW 34%,mixed band (vertical+turning together)
+660,turning,,True,0.039,E 37% SE 33% NE 24%,visual check
+661,right,,True,0.015,E 78% W 13%,rule
+662,left,,False,0.099,W 96%,rule
+663,left,,False,0.136,W 75% NW 14%,rule
+664,left,,False,0.158,W 81%,rule
+665,left,,False,0.137,W 83%,rule
+666,left,,True,0.01,W 96%,rule
+667,right,,True,0.013,E 91%,rule
+668,right,,False,0.106,E 96%,rule
+669,right,,False,0.156,E 85% SE 13%,rule
+670,right,,False,0.25,E 87% SE 12%,rule
+671,right,,False,0.125,E 94%,rule
+672,right,,True,0.019,E 97%,rule
+673,vertical,,False,0.049,SE 60% N 38%,rule (majority)
+674,vertical,,False,0.231,SE 49% N 45%,rule (majority)
+675,vertical,,False,0.223,N 50% SE 49%,rule (majority)
+676,vertical,,False,0.197,SE 51% N 47%,rule (majority)
+677,vertical,,False,0.18,SE 50% N 45%,rule (majority)
+678,vertical,,False,0.201,N 51% SE 46%,rule (majority)
+679,vertical,,False,0.209,N 58% SE 34%,rule (majority)
+680,vertical,,False,0.206,N 62% SE 27%,rule (majority)
+681,vertical,,False,0.195,N 52% SE 31% E 15%,rule (majority)
+682,vertical,,False,0.21,N 50% SE 37%,rule (majority)
+683,vertical,,False,0.166,SE 52% N 35%,rule (majority)
+684,vertical,,False,0.175,SE 66% N 24%,rule (majority)
+685,vertical,,False,0.207,SE 69% N 27%,rule (majority)
+686,vertical,,False,0.145,SE 47% N 31% E 21%,visual check
+687,vertical,,False,0.14,SE 57% N 36%,rule (majority)
+688,vertical,,False,0.105,N 40% SE 27% E 20%,visual check
+689,mixed,,False,0.08,N 54% E 30% NE 12%,mixed band (vertical+turning together)
+690,vertical,,False,0.071,N 82%,rule (majority)
+691,mixed,,False,0.049,N 50% E 48%,mixed band (vertical+turning together)
+692,vertical,,False,0.09,N 44% SE 37% E 17%,rule (majority)
+694,turning,,False,0.177,W 51% SE 16% E 13%,you
+695,turning,,False,0.086,E 36% W 30% SE 22%,you
+696,right,,True,0.025,E 73%,rule
+697,left,,False,0.072,W 93%,rule
+698,left,,False,0.187,W 87% NW 11%,rule
+699,left,,False,0.156,W 84% NW 12%,rule
+700,left,,False,0.184,W 84% NW 12%,rule
+701,left,,False,0.166,W 87% NW 12%,rule
+702,turning,,True,0.03,NW 38% W 32% E 14%,you
+703,right,,False,0.12,E 92%,rule
+704,right,,False,0.19,E 92%,rule
+705,right,,False,0.271,E 89% SE 10%,rule
+706,right,,False,0.211,E 89%,rule
+707,right,,False,0.15,E 98%,rule
+708,right,,False,0.157,E 99%,rule
+709,right,,False,0.108,E 68% SE 32%,rule
+710,vertical,,True,0.02,SE 57% N 42%,rule (majority)
+711,vertical,,False,0.199,N 53% SE 41%,rule (majority)
+712,vertical,,False,0.197,N 54% SE 34%,rule (majority)
+713,vertical,,False,0.231,N 55% SE 43%,rule (majority)
+714,vertical,,False,0.164,SE 57% N 40%,rule (majority)
+715,vertical,,False,0.119,SE 72% N 26%,rule (majority)
+716,vertical,,False,0.148,SE 62% N 37%,rule (majority)
+717,vertical,,False,0.197,SE 59% N 39%,visual check
+718,vertical,,False,0.17,SE 53% N 45%,rule (majority)
+719,vertical,,False,0.19,SE 44% N 43% E 10%,rule (majority)
+720,vertical,,False,0.188,SE 65% N 34%,rule (majority)
+721,vertical,,False,0.148,SE 61% N 28%,rule (majority)
+722,mixed,,False,0.096,SE 46% W 45%,mixed band (vertical+turning together)
+723,vertical,,False,0.116,N 72% E 14%,visual check
+724,vertical,,False,0.102,N 53% SE 23% E 17%,visual check
+725,vertical,,False,0.131,N 70% SE 21%,rule (majority)
+726,mixed,,False,0.128,N 58% E 25% NE 11%,mixed band (vertical+turning together)
+727,vertical,,False,0.091,N 72% E 13% W 11%,visual check
+728,vertical,,True,0.043,N 85% W 13%,rule (majority)
+729,vertical,,False,0.085,N 51% SE 29% NE 12%,rule (majority)
+731,mixed,,False,0.129,W 47% SE 36% E 12%,mixed band (vertical+turning together)
+732,mixed,,False,0.068,SE 50% W 25% NW 15%,mixed band (vertical+turning together)
+733,turning,,False,0.066,W 48% E 40% NE 11%,you
+734,left,,True,0.036,W 75% E 16%,rule
+735,left,,False,0.106,W 97%,rule
+736,left,,False,0.214,W 92%,rule
+737,left,,False,0.214,W 90%,rule
+738,left,,False,0.159,W 88% NW 12%,rule
+739,left,,False,0.111,W 77% NW 22%,rule
+740,left,,True,0.045,W 68% NW 29%,rule
+741,right,,True,0.013,E 53% W 45%,rule
+742,right,,False,0.107,E 92%,rule
+743,right,,False,0.191,E 90% SE 10%,rule
+744,right,,False,0.207,E 93%,rule
+745,right,,False,0.208,E 99%,rule
+746,right,,False,0.129,E 99%,rule
+747,right,,False,0.154,E 98%,rule
+748,right,,False,0.078,E 98%,rule
+749,mixed,,True,0.042,SE 40% E 31% N 13%,mixed band (vertical+turning together)
+750,vertical,,False,0.15,N 60% SE 33%,rule (majority)
+751,vertical,,False,0.203,N 52% SE 45%,visual check
+752,vertical,,False,0.182,SE 47% N 42%,rule (majority)
+753,vertical,,False,0.208,SE 50% N 39%,rule (majority)
+754,vertical,,False,0.203,SE 52% N 41%,rule (majority)
+755,vertical,,False,0.154,SE 64% N 29%,rule (majority)
+756,vertical,,False,0.162,N 49% SE 41%,rule (majority)
+757,vertical,,False,0.141,SE 49% N 39%,rule (majority)
+758,vertical,,False,0.146,SE 55% N 41%,rule (majority)
+759,vertical,,False,0.148,SE 55% W 28%,you
+760,vertical,,False,0.054,SE 63% N 32%,rule (majority)
+761,vertical,,False,0.209,N 52% SE 37%,rule (majority)
+762,vertical,,False,0.189,N 62% SE 25%,rule (majority)
+763,vertical,,False,0.139,N 67% E 14%,visual check
+764,vertical,,False,0.117,N 77% E 17%,visual check
+765,vertical,,True,0.042,N 76% W 19%,visual check
+766,vertical,,False,0.048,N 62% W 32%,visual check
+767,left,,False,0.07,W 60% N 23% NE 14%,rule
+768,mixed,,False,0.054,N 49% E 43%,mixed band (vertical+turning together)
+769,vertical,,False,0.051,N 69% SE 29%,rule (majority)
+770,vertical,,True,0.044,SE 88%,rule (majority)
+771,vertical,,False,0.116,SE 55% W 35%,you
+772,left,,False,0.085,W 95%,rule
+773,left,,False,0.077,W 93%,rule
+774,left,,False,0.311,W 97%,rule
+775,left,,False,0.16,W 78% NW 16%,rule
+776,left,,False,0.18,W 92%,rule
+777,left,,False,0.112,W 79%,rule
+778,right,,True,0.01,E 86%,rule
+779,right,,False,0.124,E 99%,rule
+780,right,,False,0.191,E 86% SE 13%,rule
+781,right,,False,0.197,E 88% SE 11%,rule
+782,right,,False,0.179,E 99%,rule
+783,right,,False,0.145,E 98%,rule
+784,right,,False,0.072,E 79% SE 20%,rule
+785,empty,,False,0.013,E 98%,rule
+786,vertical,,True,0.023,N 93%,rule (majority)
+787,vertical,,False,0.111,N 57% SE 33%,rule (majority)
+788,vertical,,False,0.269,N 46% SE 36% NW 12%,rule (majority)
+789,vertical,,False,0.163,N 55% SE 35%,rule (majority)
+790,vertical,,False,0.219,N 57% SE 36%,rule (majority)
+791,vertical,,False,0.201,N 56% SE 35%,rule (majority)
+792,vertical,,False,0.201,N 46% SE 37% E 11%,rule (majority)
+793,vertical,,False,0.115,N 51% SE 46%,rule (majority)
+794,vertical,,False,0.081,N 49% SE 36% NW 14%,rule (majority)
+795,vertical,,False,0.126,SE 51% N 37%,rule (majority)
+796,vertical,,False,0.144,N 49% SE 46%,rule (majority)
+797,vertical,,False,0.136,N 62% SE 18% E 14%,visual check
+798,vertical,,False,0.1,N 72% W 10%,visual check
+799,mixed,,False,0.191,N 56% NE 18% E 17%,mixed band (vertical+turning together)
+800,vertical,,False,0.172,N 61% E 27%,visual check
+801,mixed,,False,0.096,N 51% E 22% NE 19%,mixed band (vertical+turning together)
+802,vertical,,False,0.096,N 88%,rule (majority)
+803,vertical,,False,0.111,N 90%,rule (majority)
+804,left,,False,0.145,W 83% N 10%,rule
+805,left,,True,0.045,W 95%,rule
+806,left,,False,0.074,W 98%,rule
+807,left,,False,0.146,W 90%,rule
+808,left,,False,0.177,W 79% NW 13%,rule
+809,left,,False,0.123,W 87%,rule
+810,left,,False,0.129,W 87% NW 11%,rule
+811,left,,False,0.169,W 91%,rule
+812,left,,False,0.055,W 76% NW 18%,rule
+813,empty,,False,0.003,E 100%,rule
+814,right,,False,0.071,E 99%,rule
+815,right,,False,0.16,E 87% SE 12%,rule
+816,right,,False,0.126,E 98%,rule
+817,right,,False,0.179,E 85% SE 15%,rule
+818,right,,False,0.061,E 51% SE 49%,rule
+819,vertical,,True,0.026,SE 65% N 34%,rule (majority)
+820,vertical,,False,0.224,N 58% SE 38%,rule (majority)
+821,vertical,,False,0.164,SE 49% N 34% NW 15%,rule (majority)
+822,vertical,,False,0.169,N 62% SE 32%,rule (majority)
+823,vertical,,False,0.181,N 50% SE 42%,rule (majority)
+824,vertical,,False,0.222,SE 50% N 48%,rule (majority)
+825,vertical,,False,0.151,SE 43% N 43% NW 11%,rule (majority)
+826,vertical,,False,0.156,SE 43% N 41% NW 12%,rule (majority)
+827,vertical,,False,0.086,SE 72% N 27%,rule (majority)
+828,vertical,,False,0.122,SE 57% N 39%,rule (majority)
+829,vertical,,False,0.152,N 56% SE 32%,rule (majority)
+830,vertical,,False,0.141,N 53% SE 25% E 13%,visual check
+831,mixed,,False,0.152,N 40% E 36% NE 21%,mixed band (vertical+turning together)
+832,vertical,,False,0.158,N 74% E 12%,visual check
+833,vertical,,False,0.128,N 60% SE 36%,rule (majority)
+834,vertical,,False,0.09,SE 59% N 38%,rule (majority)
+835,vertical,,False,0.146,SE 56% N 37%,rule (majority)
+836,vertical,,False,0.109,SE 56% N 41%,rule (majority)
+837,vertical,,False,0.131,SE 59% N 37%,rule (majority)
+838,vertical,,False,0.088,N 54% SE 39%,rule (majority)
+839,mixed,,False,0.077,N 59% E 27% NE 12%,mixed band (vertical+turning together)
+840,mixed,,False,0.115,N 58% NE 13% E 13%,mixed band (vertical+turning together)
+841,turning,,False,0.125,E 27% NE 26% N 23%,visual check
+842,left,,False,0.111,W 76% E 15%,rule
+843,left,,False,0.13,W 91%,rule
+844,left,,False,0.112,W 80% E 10%,rule
+845,left,,False,0.174,W 87%,rule
+846,left,,False,0.252,W 89%,rule
+847,left,,False,0.21,W 91%,rule
+848,left,,False,0.229,W 96%,rule
+849,turning,,True,0.018,NW 46% E 28% W 25%,visual check
+850,right,,False,0.062,E 93%,rule
+851,right,,False,0.166,E 98%,rule
+852,right,,False,0.286,E 87% SE 12%,rule
+853,right,,False,0.178,E 96%,rule
+854,right,,False,0.183,E 98%,rule
+855,right,,False,0.206,E 92%,rule
+856,right,,False,0.169,E 81% SE 19%,rule
+857,vertical,,True,0.043,SE 77% E 22%,visual check
+858,vertical,,False,0.102,SE 53% N 34% E 12%,rule (majority)
+859,vertical,,False,0.16,SE 52% N 35%,rule (majority)
+860,vertical,,False,0.201,N 48% SE 40%,rule (majority)
+861,vertical,,False,0.176,N 56% SE 35%,rule (majority)
+862,vertical,,False,0.133,N 59% SE 39%,rule (majority)
+863,vertical,,False,0.103,SE 57% N 38%,rule (majority)
+864,vertical,,False,0.188,SE 56% N 42%,rule (majority)
+865,vertical,,False,0.142,N 59% SE 31%,rule (majority)
+866,vertical,,False,0.135,N 83% SE 15%,rule (majority)
+867,vertical,,False,0.152,N 69% SE 17%,rule (majority)
+868,vertical,,False,0.186,SE 49% N 46%,rule (majority)
+869,vertical,,False,0.112,SE 69% N 21%,rule (majority)
+870,vertical,,False,0.109,SE 49% N 26% E 16%,visual check
+871,vertical,,False,0.144,SE 47% N 41%,rule (majority)
+872,vertical,,False,0.139,SE 66% N 32%,rule (majority)
+873,vertical,,False,0.15,SE 64% N 34%,rule (majority)
+874,vertical,,False,0.121,N 47% SE 43%,rule (majority)
+876,vertical,,False,0.166,N 64% E 12% NE 12%,visual check
+877,turning,,False,0.105,E 44% N 27% NE 23%,visual check
+878,vertical,,False,0.157,N 65% E 18% NE 12%,visual check
+879,vertical,,False,0.122,N 68% E 18% NE 13%,visual check
+880,left,,False,0.111,W 66% N 12%,rule
+881,turning,,False,0.149,W 71% E 20%,you
+882,left,,False,0.201,W 96%,rule
+883,left,,False,0.153,W 82% NW 11%,rule
+884,left,,False,0.102,W 88%,rule
+885,left,,False,0.109,W 91%,rule
+886,left,,False,0.087,W 92%,rule
+887,right,,True,0.012,E 67% W 33%,rule
+888,right,,False,0.084,E 90%,rule
+889,right,,False,0.181,E 92%,rule
+890,right,,False,0.185,E 98%,rule
+891,right,,False,0.167,E 86% W 13%,rule
+892,right,,False,0.11,E 73% W 23%,you
+893,right,,False,0.127,E 85% W 11%,rule
+894,right,,False,0.221,E 92%,rule
+895,right,,False,0.145,E 83% SE 10%,rule
+896,vertical,,True,0.021,SE 82%,rule (majority)
+897,vertical,,False,0.116,SE 59% E 14% NW 12%,visual check
+898,vertical,,False,0.155,SE 62% N 19% NW 17%,rule (majority)
+899,vertical,,False,0.247,N 52% SE 42%,rule (majority)
+900,vertical,,False,0.217,N 60% SE 34%,rule (majority)
+901,vertical,,False,0.118,N 46% SE 40%,rule (majority)
+902,vertical,,False,0.2,SE 51% N 46%,rule (majority)
+903,vertical,,False,0.241,SE 50% N 44%,rule (majority)
+904,vertical,,False,0.203,SE 58% N 38%,rule (majority)
+905,vertical,,False,0.176,N 41% SE 41%,rule (majority)
+906,vertical,,False,0.171,N 51% SE 41%,rule (majority)
+907,vertical,,False,0.166,SE 47% N 37% W 15%,rule (majority)
+909,mixed,,False,0.091,SE 42% W 38% E 11%,mixed band (vertical+turning together)
+910,turning,,False,0.091,W 55% E 19% SE 12%,visual check
+912,mixed,,False,0.116,N 48% E 37% NE 15%,mixed band (vertical+turning together)
+913,mixed,,False,0.117,E 42% N 35% NE 21%,mixed band (vertical+turning together)
+914,vertical,,False,0.128,N 65% E 17% NE 15%,visual check
+915,vertical,,False,0.171,N 71% NE 17% E 10%,visual check
+916,turning,,False,0.102,N 61% E 25% NE 12%,visual check
+917,vertical,,True,0.035,N 84% NE 15%,rule (majority)
+918,turning,,False,0.083,W 52% E 28% NE 17%,visual check
+919,turning,,False,0.132,W 62% E 28%,you
+920,left,,False,0.086,W 97%,rule
+921,left,,False,0.066,W 86%,rule
+922,left,,False,0.166,W 90%,rule
+923,left,,False,0.145,W 85% NW 14%,rule
+924,left,,False,0.218,W 87% NW 12%,rule
+925,left,,False,0.119,W 80% NW 14%,rule
+926,turning,,True,0.026,W 47% NW 41%,you
+927,right,,False,0.141,E 97%,rule
+928,right,,False,0.245,E 94%,rule
+929,right,,False,0.229,E 99%,rule
+930,right,,False,0.194,E 98%,rule
+931,right,,False,0.17,E 99%,rule
+932,right,,False,0.193,E 83% SE 15%,rule
+933,right,,False,0.17,E 94%,rule
+934,right,,False,0.116,E 96%,rule
+935,right,,False,0.067,E 49% SE 48%,rule
+936,vertical,,False,0.05,N 64% SE 20%,rule (majority)
+937,vertical,,False,0.177,N 51% SE 37%,rule (majority)
+938,vertical,,False,0.252,N 57% SE 33%,rule (majority)
+939,vertical,,False,0.176,N 70% SE 25%,rule (majority)
+940,vertical,,False,0.126,N 61% SE 33%,rule (majority)
+941,vertical,,False,0.057,N 49% SE 43%,rule (majority)
+942,vertical,,False,0.106,N 52% SE 43%,rule (majority)
+943,vertical,,False,0.174,SE 49% N 46%,rule (majority)
+944,vertical,,False,0.15,SE 52% N 40%,rule (majority)
+945,vertical,,False,0.134,N 47% SE 40% E 12%,rule (majority)
+946,vertical,,False,0.154,SE 54% N 38%,rule (majority)
+947,vertical,,False,0.148,SE 54% N 32% E 12%,rule (majority)
+948,vertical,,False,0.132,N 47% SE 41% E 12%,rule (majority)
+949,vertical,,False,0.141,SE 51% N 40%,rule (majority)
+950,vertical,,False,0.106,SE 51% N 27% E 20%,visual check
+951,mixed,,False,0.114,SE 54% E 26% NW 14%,mixed band (vertical+turning together)
+952,vertical,,False,0.071,E 55% N 31%,visual check
+953,vertical,,False,0.121,N 75% E 21%,visual check
+954,mixed,,False,0.072,N 46% E 27% NE 14%,mixed band (vertical+turning together)
+955,mixed,,False,0.079,N 36% NE 18% W 17%,mixed band (vertical+turning together)
+956,mixed,,False,0.138,W 58% SE 37%,mixed band (vertical+turning together)
+957,vertical,,False,0.111,SE 68% N 18% W 12%,rule (majority)
+958,mixed,,False,0.077,SE 39% W 39%,mixed band (vertical+turning together)
+960,turning,,False,0.069,W 50% E 41%,you
+961,left,,False,0.223,W 91%,rule
+962,left,,False,0.224,W 83% NW 13%,rule
+963,left,,False,0.184,W 91%,rule
+964,left,,False,0.164,W 87%,rule
+965,turning,,True,0.022,W 50% NW 25% N 17%,visual check
+966,right,,False,0.069,E 96%,rule
+967,right,,False,0.097,E 98%,rule
+968,right,,False,0.106,E 95%,rule
+969,right,,True,0.017,E 75% W 17%,visual check
+970,right,,True,0.013,E 92%,rule
+971,right,,True,0.014,E 88%,rule
+972,right,,True,0.011,E 81% W 10%,rule
+973,vertical,,True,0.027,SE 75% N 17%,rule (majority)
+974,vertical,,False,0.157,N 49% SE 45%,visual check
+975,vertical,,False,0.194,N 54% SE 40%,rule (majority)
+976,vertical,,False,0.179,N 44% SE 39% NW 14%,rule (majority)
+977,vertical,,False,0.203,N 57% SE 35%,rule (majority)
+978,vertical,,False,0.181,SE 49% N 46%,rule (majority)
+979,vertical,,False,0.208,N 47% SE 43%,rule (majority)
+980,vertical,,False,0.19,N 48% SE 43%,rule (majority)
+981,vertical,,False,0.221,SE 49% N 47%,rule (majority)
+982,vertical,,False,0.174,N 51% SE 43%,rule (majority)
+983,vertical,,False,0.146,N 82% E 10%,rule (majority)
+984,vertical,,False,0.122,N 64% E 17%,visual check
+985,vertical,,False,0.171,N 76% SE 17%,rule (majority)
+986,vertical,,False,0.118,N 74% SE 24%,rule (majority)
+987,mixed,,False,0.082,N 52% E 29% NE 14%,mixed band (vertical+turning together)
+988,mixed,,False,0.122,N 53% E 22% NE 16%,mixed band (vertical+turning together)
+989,turning,,False,0.102,E 49% N 34% NE 17%,visual check
+990,vertical,,False,0.055,N 89%,rule (majority)
+991,vertical,,False,0.061,N 92%,rule (majority)
+992,vertical,,False,0.058,N 57% SE 33%,rule (majority)
+993,vertical,,False,0.092,N 66% SE 19% E 13%,rule (majority)
+994,vertical,,False,0.085,N 52% SE 34%,rule (majority)
+995,turning,,True,0.039,E 53% NE 19% N 14%,visual check
+996,left,,False,0.083,W 89%,rule
+997,left,,False,0.149,W 95%,rule
+998,left,,False,0.184,W 90%,rule
+999,left,,False,0.214,W 98%,rule
+1000,left,,False,0.255,W 95%,rule
+1001,left,,False,0.223,W 98%,rule
+1002,left,,False,0.27,W 98%,rule
+1003,left,,False,0.055,W 86%,rule
+1004,right,,False,0.141,E 98%,rule
+1005,right,,False,0.268,E 91%,rule
+1006,right,,False,0.201,E 84% SE 15%,rule
+1007,right,,False,0.189,E 93%,rule
+1008,right,,False,0.229,E 89% SE 10%,rule
+1009,right,,False,0.16,E 99%,rule
+1010,right,,False,0.069,E 88%,rule
+1011,right,,True,0.013,E 85%,rule
+1012,vertical,,False,0.121,N 44% SE 22% NW 17%,visual check
+1013,vertical,,False,0.209,N 47% SE 46%,rule (majority)
+1014,vertical,,False,0.198,N 46% SE 44%,rule (majority)
+1015,vertical,,False,0.209,N 54% SE 40%,rule (majority)
+1016,vertical,,False,0.155,N 50% SE 46%,rule (majority)
+1017,vertical,,False,0.09,N 39% SE 38% E 23%,visual check
+1018,turning,,False,0.116,E 39% N 29% NE 16%,visual check
+1019,turning,,False,0.113,E 36% W 25% N 21%,visual check
+1020,vertical,,False,0.167,N 63% SE 31%,rule (majority)
+1021,vertical,,False,0.181,N 65% E 20% NE 12%,visual check
+1022,vertical,,False,0.161,N 70% E 13%,visual check
+1023,vertical,,False,0.173,N 70% SE 27%,rule (majority)
+1024,vertical,,False,0.142,N 71% E 14%,visual check
+1025,mixed,,True,0.044,N 58% NW 25% W 16%,mixed band (vertical+turning together)
+1026,vertical,,False,0.097,N 99%,rule (majority)
+1027,vertical,,False,0.064,N 95%,rule (majority)
+1028,vertical,,False,0.047,N 79% SE 18%,rule (majority)
+1029,vertical,,False,0.099,N 65% SE 25%,rule (majority)
+1030,vertical,,False,0.082,N 86%,rule (majority)
+1031,vertical,,False,0.106,N 60% E 21% NE 16%,visual check
+1032,vertical,,False,0.112,N 58% SE 20%,visual check
+1033,vertical,,False,0.086,N 67% W 15%,visual check
+1034,left,,False,0.113,W 70% E 14%,rule
+1035,left,,False,0.058,W 80% E 16%,rule
+1036,left,,False,0.118,W 95%,rule
+1037,left,,False,0.153,W 91%,rule
+1038,left,,False,0.151,W 80% NW 13%,rule
+1039,left,,False,0.193,W 83% NW 10%,rule
+1040,left,,False,0.245,W 93%,rule
+1041,left,,False,0.131,W 91%,rule
+1042,turning,,True,0.029,E 49% W 49%,you
+1043,right,,False,0.125,E 99%,rule
+1044,right,,False,0.234,E 97%,rule
+1045,right,,False,0.247,E 95%,rule
+1046,right,,False,0.196,E 99%,rule
+1047,right,,False,0.228,E 88% SE 10%,rule
+1048,right,,False,0.179,E 94%,rule
+1049,right,,False,0.11,E 90%,rule
+1050,vertical,,True,0.016,N 66% SE 28%,rule (majority)
+1051,vertical,,False,0.091,N 59% E 15% SE 14%,visual check
+1052,vertical,,False,0.228,N 60% SE 34%,rule (majority)
+1053,vertical,,False,0.226,N 69% SE 29%,visual check
+1054,vertical,,False,0.182,N 56% SE 30%,rule (majority)
+1055,vertical,,False,0.154,SE 56% N 41%,rule (majority)
+1056,vertical,,False,0.219,SE 53% N 42%,rule (majority)
+1057,vertical,,False,0.188,SE 45% N 44%,rule (majority)
+1058,vertical,,False,0.171,N 54% SE 39%,rule (majority)
+1059,vertical,,False,0.143,SE 64% N 31%,rule (majority)
+1060,vertical,,False,0.092,SE 62% N 35%,rule (majority)
+1061,vertical,,False,0.153,N 68% E 15% NE 11%,visual check
+1062,mixed,,False,0.128,N 52% E 31% NE 15%,mixed band (vertical+turning together)
+1063,mixed,,False,0.066,N 43% E 41% NE 13%,mixed band (vertical+turning together)
+1064,vertical,,False,0.068,N 82%,rule (majority)
+1065,vertical,,False,0.089,N 59% SE 39%,rule (majority)
+1066,vertical,,False,0.053,N 93%,rule (majority)
+1067,vertical,,False,0.092,N 64% SE 31%,rule (majority)
+1068,vertical,,False,0.084,N 52% SE 43%,rule (majority)
+1069,vertical,,False,0.1,N 59% SE 29% E 10%,rule (majority)
+1070,left,,False,0.064,W 63% N 17% SE 15%,rule
+1071,mixed,,False,0.095,W 40% SE 36% N 20%,mixed band (vertical+turning together)
+1072,mixed,,False,0.087,N 41% W 37% SE 18%,mixed band (vertical+turning together)
+1073,turning,,False,0.047,W 55% E 33%,you
+1074,left,,False,0.109,W 94%,rule
+1075,left,,False,0.142,W 95%,rule
+1076,left,,False,0.177,W 91%,rule
+1077,left,,False,0.152,W 79% NW 18%,rule
+1078,left,,False,0.11,W 85% NW 13%,rule
+1079,left,,False,0.1,W 87% NW 12%,rule
+1080,right,,True,0.035,E 89%,rule
+1081,right,,False,0.166,E 98%,rule
+1082,right,,False,0.207,E 92%,rule
+1083,right,,False,0.198,E 87% SE 13%,rule
+1084,right,,False,0.156,E 87% SE 11%,rule
+1085,right,,False,0.087,E 64% SE 36%,rule
+1086,right,,True,0.044,E 78% SE 22%,rule
+1087,vertical,,True,0.013,SE 60% E 22% N 15%,visual check
+1088,vertical,,False,0.115,N 64% SE 21% E 15%,rule (majority)
+1089,vertical,,False,0.25,N 54% SE 43%,rule (majority)
+1090,vertical,,False,0.199,SE 53% N 45%,rule (majority)
+1091,vertical,,False,0.223,N 58% SE 33%,rule (majority)
+1092,vertical,,False,0.214,N 59% SE 40%,rule (majority)
+1093,vertical,,False,0.182,N 50% SE 46%,rule (majority)
+1094,vertical,,False,0.157,SE 57% N 41%,rule (majority)
+1095,vertical,,False,0.146,N 60% SE 39%,rule (majority)
+1096,vertical,,False,0.105,N 52% SE 46%,rule (majority)
+1097,vertical,,False,0.144,N 62% SE 23% E 13%,rule (majority)
+1098,vertical,,False,0.157,N 73% SE 16%,rule (majority)
+1099,vertical,,False,0.114,N 91%,rule (majority)
+1100,vertical,,False,0.13,N 86% NE 11%,rule (majority)
+1101,vertical,,False,0.164,N 76%,visual check
+1102,vertical,,False,0.16,N 84%,rule (majority)
+1103,mixed,,False,0.075,N 49% NE 27% E 17%,mixed band (vertical+turning together)
+1104,vertical,,False,0.143,N 56% SE 36%,rule (majority)
+1105,vertical,,False,0.191,N 54% SE 38%,visual check
+1106,mixed,,False,0.1,N 44% E 20% NE 17%,mixed band (vertical+turning together)
+1107,mixed,,False,0.083,N 46% E 30% NE 23%,mixed band (vertical+turning together)
+1108,mixed,,False,0.1,N 38% E 34% NE 25%,mixed band (vertical+turning together)
+1109,mixed,,False,0.094,N 49% E 38%,mixed band (vertical+turning together)
+1110,left,,False,0.069,W 81%,rule
+1111,left,,False,0.065,W 97%,you
+1112,left,,False,0.148,W 94%,rule
+1113,left,,False,0.106,W 66% NW 21%,rule
+1114,left,,False,0.17,W 81%,rule
+1115,left,,False,0.155,W 88%,rule
+1116,left,,False,0.172,W 91%,rule
+1117,left,,False,0.223,W 97%,rule
+1118,empty,,True,0.011,E 57% W 24% NW 17%,visual check
+1119,right,,False,0.121,E 96%,rule
+1120,right,,False,0.169,E 94%,rule
+1121,right,,False,0.17,E 90%,rule
+1122,right,,False,0.162,E 98%,rule
+1123,right,,False,0.147,E 99%,rule
+1124,right,,False,0.193,E 86% SE 13%,rule
+1125,right,,False,0.119,E 88% SE 10%,rule
+1126,vertical,,True,0.04,N 36% SE 24% NW 17%,visual check
+1127,vertical,,False,0.148,N 48% SE 48%,rule (majority)
+1128,vertical,,False,0.2,SE 44% N 42%,rule (majority)
+1129,vertical,,False,0.16,N 65% SE 31%,rule (majority)
+1130,vertical,,False,0.23,N 64% SE 30%,rule (majority)
+1131,vertical,,False,0.181,N 62% SE 33%,rule (majority)
+1132,vertical,,False,0.131,N 75% SE 20%,rule (majority)
+1133,vertical,,False,0.154,N 49% SE 49%,rule (majority)
+1134,vertical,,False,0.135,SE 62% N 35%,rule (majority)
+1135,vertical,,False,0.196,SE 59% N 33%,rule (majority)
+1136,vertical,,False,0.172,N 60% SE 37%,rule (majority)
+1137,vertical,,False,0.138,N 50% SE 24% NW 13%,visual check
+1138,vertical,,False,0.141,N 68% E 15% NE 12%,visual check
+1139,mixed,,False,0.099,N 52% E 26% NE 11%,mixed band (vertical+turning together)
+1140,vertical,,False,0.093,N 73% E 14%,rule (majority)
+1141,vertical,,False,0.13,N 57% SE 31%,rule (majority)
+1142,vertical,,False,0.115,N 49% SE 44%,rule (majority)
+1143,left,,False,0.079,W 90%,rule
+1144,left,,False,0.053,W 87%,rule
+1145,left,,False,0.104,W 97%,rule
+1146,left,,False,0.161,W 86%,rule
+1147,left,,False,0.148,W 82%,rule
+1148,turning,,False,0.062,W 74% E 20%,you
+1149,turning,,True,0.023,NW 49% W 36% E 13%,you
+1150,empty,,False,0.005,E 41% W 32% SE 12%,rule
+1151,right,,False,0.071,E 90%,rule
+1152,right,,False,0.198,E 90%,rule
+1153,right,,False,0.154,E 96%,rule
+1154,right,,False,0.086,E 96%,rule
+1155,right,,False,0.137,E 96%,rule
+1156,right,,True,0.039,E 89%,rule
+1157,vertical,,True,0.014,SE 77% W 15%,visual check
+1158,vertical,,False,0.102,SE 57% N 38%,visual check
+1159,vertical,,False,0.149,N 47% SE 31% NW 13%,visual check
+1160,vertical,,False,0.222,N 48% SE 40%,rule (majority)
+1161,vertical,,False,0.22,SE 47% N 36% NW 16%,rule (majority)
+1162,vertical,,False,0.184,SE 48% N 48%,rule (majority)
+1163,vertical,,False,0.14,N 62% SE 21%,rule (majority)
+1164,vertical,,False,0.161,N 69% SE 20%,rule (majority)
+1165,vertical,,False,0.205,N 60% SE 26% E 11%,rule (majority)
+1166,vertical,,False,0.159,N 53% SE 28% E 14%,rule (majority)
+1167,vertical,,False,0.147,N 57% SE 37%,rule (majority)
+1168,vertical,,False,0.154,N 55% SE 29%,rule (majority)
+1169,mixed,,False,0.124,N 47% E 34% NE 11%,mixed band (vertical+turning together)
+1170,vertical,,False,0.144,N 75% SE 17%,rule (majority)
+1171,vertical,,False,0.121,N 63% E 19%,visual check
+1172,vertical,,False,0.055,SE 49% NW 22% N 19%,visual check
+1173,turning,,False,0.081,SE 38% W 30% N 27%,visual check
+1174,mixed,,False,0.129,SE 41% N 19% E 16%,mixed band (vertical+turning together)
+1175,mixed,,False,0.111,N 55% E 32% NE 11%,mixed band (vertical+turning together)
+1176,mixed,,False,0.107,N 52% E 29% NE 15%,mixed band (vertical+turning together)
+1177,vertical,,False,0.126,N 72% SE 23%,rule (majority)
+1178,vertical,,False,0.078,N 57% SE 42%,rule (majority)
+1179,mixed,,False,0.069,N 55% E 27% NE 12%,mixed band (vertical+turning together)
+1180,turning,,False,0.091,W 50% E 29% NE 14%,visual check
+1181,left,,False,0.084,W 88%,rule
+1182,left,,False,0.082,W 89%,rule
+1183,left,,False,0.224,W 87%,rule
+1184,left,,False,0.19,W 83% NW 11%,rule
+1185,left,,False,0.196,W 88%,rule
+1186,left,,False,0.235,W 85% NW 11%,rule
+1187,left,,False,0.127,W 85% NW 11%,rule
+1188,right,,False,0.051,E 93%,rule
+1189,right,,False,0.177,E 98%,rule
+1190,right,,False,0.171,E 97%,rule
+1191,right,,False,0.213,E 92%,rule
+1192,right,,False,0.155,E 96%,rule
+1193,right,,False,0.221,E 92%,rule
+1194,right,,False,0.145,E 96%,rule
+1195,vertical,,False,0.068,N 39% SE 29% E 28%,visual check
+1196,vertical,,False,0.173,N 51% SE 45%,rule (majority)
+1197,vertical,,False,0.209,N 60% SE 32%,visual check
+1198,vertical,,False,0.184,N 66% SE 23%,rule (majority)
+1199,vertical,,False,0.181,N 55% SE 41%,rule (majority)
