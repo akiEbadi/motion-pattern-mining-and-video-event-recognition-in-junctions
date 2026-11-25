@@ -1,6 +1,6 @@
 # junction event recognition (qmul junction) - deep learning version
 
-this is a python re-do of the method in the MSc thesis *"Motion Pattern Mining and Video Event Recognition in Junctions"* (chapter 4), but with deep learning instead of HDP / HMM-LDA / SVM.
+this is a python re-do of the method in the MSc thesis _"Motion Pattern Mining and Video Event Recognition in Junctions"_ (chapter 4), but with deep learning instead of HDP / HMM-LDA / SVM.
 input is the qmul junction video, output is a traffic state for every 75-frame clip.
 
 persian notes are at the bottom (توضیحات فارسی پایین فایل هست)
@@ -68,14 +68,14 @@ outputs/             results of the last run
 
 ## thesis vs this code
 
-| step | thesis | here |
-|---|---|---|
+| step            | thesis                                               | here                                                                                                     |
+| --------------- | ---------------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
 | 1 clips + words | 75 frames, farneback flow, 10x10 cells, 8 directions | same. directions are centred on E, SE, S... (an early version had the bins shifted by half a bin, fixed) |
-| 2 activities | HDP + eqs 3-8 | neural topic model (VAE) + same eqs 3-8 |
-| 2 clip vector | eq 9 | same |
-| 3 states | HMM-LDA | hybrid neural HMM (MLP emissions + learned transitions, EM) |
-| silent clips | eq 14 (threshold 0.08) | replaced by an `empty` class (eq 9 is normalised per clip so it can't see empty clips) |
-| 4 test clips | SVM / k-means | `classify`: 2 neural nets averaged (bag of words net + activity vector net) |
+| 2 activities    | HDP + eqs 3-8                                        | neural topic model (VAE) + same eqs 3-8                                                                  |
+| 2 clip vector   | eq 9                                                 | same                                                                                                     |
+| 3 states        | HMM-LDA                                              | hybrid neural HMM (MLP emissions + learned transitions, EM)                                              |
+| silent clips    | eq 14 (threshold 0.08)                               | replaced by an `empty` class (eq 9 is normalised per clip so it can't see empty clips)                   |
+| 4 test clips    | SVM / k-means                                        | `classify`: 2 neural nets averaged (bag of words net + activity vector net)                              |
 
 not done: the GP classifier.
 tried and dropped: the key-activity rule for turning (thesis eq 15), it didn't help here (91.1% vs 92.1% without it).
@@ -84,14 +84,14 @@ tried and dropped: the key-activity rule for turning (thesis eq 15), it didn't h
 
 accuracy against `labels/labels.csv`:
 
-| method | acc |
-|---|---|
-| hybrid neural HMM (`run`) | 86.0% |
-| k-means on activity vectors (thesis approach 3, baseline in `run`) | 92.1% |
-| k-means + key-activity rule | 91.1% |
-| CNN on cell-direction maps | ~92-93% |
-| ensemble of 2 neural nets (`classify`), old labels | 94.0% |
-| ensemble of 2 neural nets (`classify`), 4 classes, majority rule | 94.1% |
+| method                                                                        | acc       |
+| ----------------------------------------------------------------------------- | --------- |
+| hybrid neural HMM (`run`)                                                     | 86.0%     |
+| k-means on activity vectors (thesis approach 3, baseline in `run`)            | 92.1%     |
+| k-means + key-activity rule                                                   | 91.1%     |
+| CNN on cell-direction maps                                                    | ~92-93%   |
+| ensemble of 2 neural nets (`classify`), old labels                            | 94.0%     |
+| ensemble of 2 neural nets (`classify`), 4 classes, majority rule              | 94.1%     |
 | **ensemble of 2 neural nets (`classify`), 5 classes incl. `mixed` (current)** | **94.1%** |
 
 per class with the current labels: right 1.00 f1, vertical 0.98, left 0.94, empty 0.89, mixed 0.80, turning 0.64.
@@ -110,6 +110,7 @@ vertical and into the smaller turning class, which is the honest place for them.
   the clip sequence, class re-weighting tuned by cross-validation. all within noise of 94%.
 
 **careful with these numbers:**
+
 - most labels (~95%) come from a rule over the same optical flow the models use, so the comparison is a bit circular.
 - a blind check by eye (82 test clips, judged without seeing label or prediction) puts the real accuracy of `classify` at about **93.7%**, and the labels themselves at about 95.5%.
 - the thesis numbers (99.15% / 95.62%) are from the thesis' own labelled experiments, NOT from this code.
@@ -121,11 +122,13 @@ vertical and into the smaller turning class, which is the honest place for them.
 `labels/labels_for_review.csv` = same + where each label came from (`source`: you / visual check / rule) and why a clip is doubtful.
 
 how they were made:
+
 1. rule over each clip's direction mix (see `labels/auto_label_rules.py`, it uses absolute paths from my machine, fix them if you run it)
 2. a few hundred clips checked by eye, wrong ones fixed
 3. hand labels (`labels/your_corrections.csv`) override everything
 
 known problems:
+
 - turning definition is majority (see classes). all vertical/turning clips with real turning motion (~230) were re-checked by eye with that rule.
 - the half-and-half clips are now their own class (`mixed`), so they no longer need a forced yes/no answer.
 - some hand labels were given before the majority rule ("turning + vertical", "turning + left") and still say turning.
@@ -157,15 +160,18 @@ known problems:
 ## توضیحات فارسی
 
 ### این پروژه چیست
+
 این کد روش فصل ۴ پایان‌نامه را با پایتون و روش‌های deep learning پیاده می‌کند. ویدیوی تقاطع QMUL به کلیپ‌های ۷۵ فریمی تقسیم می‌شود و برای هر کلیپ وضعیت ترافیکی مشخص می‌شود. ۵۰۰ کلیپ اول برای آموزش و ۷۰۰ کلیپ بعدی برای تست است، همان‌طور که در پایان‌نامه بود.
 
 ### مراحل
+
 1. **استخراج ویژگی:** جریان نوری بین فریم‌ها محاسبه می‌شود. هر فریم به ۱۰×۱۰ سلول تقسیم می‌شود و جهت حرکت هر سلول به یکی از ۸ جهت تبدیل می‌شود. هر (سلول، جهت) یک «کلمه» است.
 2. **کشف فعالیت‌ها:** به‌جای HDP یک مدل موضوعی عصبی (VAE) فعالیت‌ها را یاد می‌گیرد. روابط ۳ تا ۹ پایان‌نامه برای انتخاب فعالیت‌ها و ساختن بردار هر کلیپ بدون تغییر استفاده شده‌اند.
 3. **کشف وضعیت‌ها (بدون برچسب):** به‌جای HMM-LDA یک HMM ترکیبی عصبی استفاده شده است. دستور `run` این مرحله را اجرا می‌کند.
 4. **طبقه‌بندی داده‌ی تست (با برچسب):** دو شبکه‌ی عصبی کوچک روی کلیپ‌های آموزشی برچسب‌دار آموزش می‌بینند و احتمال‌هایشان میانگین گرفته می‌شود. دستور `classify` این مرحله را اجرا می‌کند و بهترین دقت را دارد.
 
 ### کلاس‌ها
+
 - **vertical:** جریان خیابان اصلی (شمال‌رو سمت چپ، جنوب‌رو سمت راست)
 - **left:** جریان افقی به سمت چپ (غرب)
 - **right:** جریان افقی به سمت راست (شرق)
@@ -176,6 +182,7 @@ known problems:
 اگر فقط یک ماشین در حال حرکت باشد، جهت همان ماشین کلاس را تعیین می‌کند.
 
 ### نتیجه
+
 دقت روی ۷۰۰ کلیپ تست **۹۴٫۱٪** است (دستور `classify`). K-means به ۹۲٫۱٪ و HMM عصبی به ۸۶٪ رسید.
 
 اضافه کردن کلاس mixed هیچ هزینه‌ای نداشت: دقت با ۴ کلاس و با ۵ کلاس هر دو ۹۴٫۱٪ است، ولی کلاس vertical تمیزتر شد (۰٫۹۷ به ۰٫۹۸) و برچسب‌ها صادقانه‌تر شدند.
@@ -183,6 +190,7 @@ known problems:
 روی کلیپ‌های تستی که با چشم برچسب خورده‌اند دقت حدود ۷۷٪ است. این‌ها سخت‌ترین کلیپ‌ها هستند و نمونه‌ی تصادفی نیستند.
 
 ### تفکیک «گردش به چپ» از «جریان افقی چپ»
+
 این مشکل را بررسی کردم و ویژگی درست را پیدا کردم: **تفاوت در جهت نیست، در بُرد حرکت است.** ماشینی که در خیابان افقی می‌راند کل عرض قاب را طی می‌کند، ولی ماشینی که می‌پیچد فقط تا وسط قاب می‌آید. در کلیپ‌های left حدود ۴۴٪ حرکت غربی در نیمه‌ی راست قاب است، ولی در کلیپ‌های turning فقط ۱۴٪.
 
 ولی این ویژگی دقت مدل را بالا نبرد و تابع `reach_features` در `src/features.py` با همین توضیح نگه داشته شده است. دو دلیل دارد:
@@ -192,9 +200,11 @@ known problems:
 یعنی مشکل کمبود ویژگی نیست، کمبود نمونه است. برای بهتر شدن، نمونه‌ی آموزشی بیشتر از کلاس turning لازم است، نه ویژگی جدید.
 
 ### مشکل باقی‌مانده
+
 بزرگ‌ترین گروه خطا ۱۳ کلیپ turning است که مدل left می‌خواند. چند برچسب دستی هم قبل از تعریف اکثریت داده شده‌اند (مثل «turning + vertical») و هنوز turning هستند. فایل `labels/recheck_clips.pdf` این‌ها را دارد.
 
 ### فایل‌های مهم خروجی
+
 - `outputs/classify/predictions.csv`: کلاس پیش‌بینی‌شده و احتمال هر کلاس برای همه‌ی کلیپ‌ها
 - `outputs/classify/metrics.txt` و `confusion_matrix.png`: دقت روی داده‌ی تست
 - `outputs/review/`: تصویر نمونه‌کلیپ‌های هر کلاس برای بررسی چشمی
